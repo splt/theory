@@ -587,6 +587,8 @@ textarea {
 
         #bread_crumbs ul#slider_nav{margin-top: -1px;}
 
+    #product_result
+
     #product_details{}
         
         #product_details hr{border-bottom: 1px solid #b3b3b3; margin: 4px 0px 9px 0px;}
@@ -711,10 +713,6 @@ textarea {
                 text-align: center;
                width: 100%;
                overflow: hidden;
-
-            }
-
-            #product_results .quicklook{
 
             }
 

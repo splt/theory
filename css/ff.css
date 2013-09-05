@@ -1,22 +1,22 @@
-p,
-h5,
-.input_append input,
-#shopping_bag,
-#shopping_bag #shopping_actions button,
-#navigation,
-#global_search input,
-#product_filters ul,
-.nav_col ul,
-.footer_col ul
-#bread_crumbs ul,
-.product_detail h4,
-.selection p.value,
-.product_detail button,
-.swatches ul,
-.error,
-.options,
-.product_detail .content p,
-#related_items,
-.related_desc{font-family: "Times New Roman", Times, Georgia, serif;}
-.product_detail h1{font-weight: 200;}
-.dropdown strong a{font-weight: 700;}
+.ff p,
+.ff .input_append input,
+.ff #shopping_bag,
+.ff #shopping_bag #shopping_actions button,
+.ff #navigation,
+.ff #global_search input,
+.ff #product_filters ul,
+.ff .nav_col ul,
+.ff .footer_col ul,
+.ff #bread_crumbs ul,
+.ff .product_detail h4,
+.ff .selection p.value,
+.ff .product_detail button,
+.ff .swatches ul,
+.ff .error,
+.ff .options,
+.ff .product_detail .content p,
+.ff #related_items,
+.ff .related_desc{font-family: "Times New Roman", Times, Georgia, serif !important;}
+.ff .footer_col ul{font-size: 13px;}
+.ff .product_detail h1{font-weight: 200;}
+.ff .dropdown strong a{font-weight: 700;}
