@@ -1,0 +1,32 @@
+
+.input-append input{background: #FFF; height: 11px;}
+.input-append .btn{height: 21px;}
+
+.icon-search{top: 4px;}
+.carousel-linked-nav li{top: 6px;}
+
+.carousel-linked-nav li a{background: #FFF url('../img/bullet.jpg') no-repeat;}
+.carousel-linked-nav .activeSlide a{background: #FFF url('../img/bullet-active.jpg') no-repeat;}
+
+
+#shopping_bag,
+#shopping_bag #shopping_actions button,
+#navigation,
+#global_search input,
+.nav_col ul,
+.footer_col ul,
+.input-append input,
+#copyright{font-family:  "Times New Roman", Times, serif; font-size: 0.95em; letter-spacing: 0.025em;}
+
+.dropdown {width: 898px;}
+.nav_col ul,
+.footer_col ul{
+	line-height: 1.7em;
+}
+
+
+.nav_col h5,
+.footer_col h5{letter-spacing: 0.12em;}
+
+.dropdown .nav_col ul strong a{font-family: "Times New Roman", Times, serif; font-weight: bold;}
+.dropdown{border-left: 1px solid #CCC; border-right: 1px solid #CCC; border-bottom: 1px solid #CCC;}
