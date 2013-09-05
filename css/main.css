@@ -114,14 +114,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.beta{position: relative;}
 
 .alpha img{float: left;}
-.beta img{
-    position: relative;
-    left: -50%;
-    top: -50%;}
+.beta img{}
+
 .grid_8 .beta img{margin: 0px 163px;}
 .grid_5 .beta img{margin: 0px 5px;}
+
+.grid_6.beta img{margin: 0px 3px;}
 
 .omega img{float: right;}
 
@@ -592,7 +593,6 @@ textarea {
         .product_image{position: relative; width: 100%; height: 100%;}
         .quicklook{
             font-family: 'Genath-Regular', "Times New Roman", Georgia, serif; 
-            color: #000;
             font-size: 14px;
             text-align: center;
             line-height: 60px;
@@ -743,7 +743,7 @@ textarea {
                         .related_desc .swatches li a:hover{border: 1px solid #666;}
                         .related_desc .swatches li a img{
                             position: relative; 
-                            left: 0px; top: -6px; 
+                            left: 0px;  
                             width: 15px; height: 15px;}
 
 
@@ -775,21 +775,22 @@ textarea {
         padding-bottom: 20px;
         margin-bottom: 10px;}
 
-
         .input_append{
             border: 1px solid #000;
             font-size: 0.7em;
             height: 20px;
             width: 200px;}
         .input_append *{
-             font-weight: 0;
+            font-weight: 0;
             border: 0px;
             padding: 5px 1px 4px 1px;}
-        .input_append input{font-family: 'Genath-Regular', "Times New Roman", Georgia, serif;
+        .input_append input{
+            font-family: 'Genath-Regular', "Times New Roman", Georgia, serif;
             font-size: 11px; padding-top: 3px; padding-bottom: 0px;
             font-size: 11px; padding-top: 3px; padding-bottom: 0px;
             float: left; width: 134px; margin-left: 4px;}
-        .input_append .btn{ font-family: 'Theinhardt-Medium' sans-serif;
+        .input_append .btn{ 
+            font-family: 'Theinhardt-Medium', "Helvetica", Arial, sans-serif;
             height: 100%;
             text-transform: uppercase; letter-spacing: 2px;
             float: left; width: 60px; background: #000; color: #FFF;}

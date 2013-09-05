@@ -71,13 +71,19 @@ $(function() {
         // Product Detail Swatches
 
         var swatches = $('.swatches ul li').click(function(){
-            
+
             var thisSwatch = $(this).toggleClass('selected').siblings().removeClass('selected');
             var thisTitle = $(this).children('a').attr('data-swatch');
             var thisValue = $(this).parent().parent().parent().find('p.value');
             thisValue[0].innerHTML = thisTitle;
 
         });
+
+        if(!swatches){
+          var sideSwatches = $('.swatches li').click(function(){
+            $(this).toggleClass('selected').siblings().removeClass('selected');
+          });
+        }
   
         // Navigation Dropdown Objects to display dropdowns and add padding for parent elements. 
 
