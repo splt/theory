@@ -11,7 +11,12 @@ $(function() {
             'lineHeight':'1.7em'
           });
           console.log('Windows!');
+          var fontcss = document.createElement('link');
+          fontcss.setAttribute('type', 'text/css');
+          fontcss.setAttribute('href', 'css/ff.css');
+          document.body.getElementByTagName('head')[0].appendChild(fontcss);
       }
+
 
 
         // JQuery Cycle init for Homepage and to Generate Button Elements. 
