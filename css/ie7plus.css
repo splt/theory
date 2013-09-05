@@ -26,6 +26,8 @@
 
 hr{width: 100%;}
 
+.grid_5 hr{padding-left: 30px; }
+
 .nav_col h5,
 .footer_col h5{letter-spacing: 0.12em;}
 

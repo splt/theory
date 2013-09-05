@@ -79,7 +79,7 @@ $(function() {
 
         });
 
-        if(!swatches){
+        if(swatches.length == 0){
           var sideSwatches = $('.swatches li').click(function(){
             $(this).toggleClass('selected').siblings().removeClass('selected');
           });
