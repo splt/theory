@@ -600,15 +600,6 @@
     <script src="js/main.js"></script>
 
     <script type="text/javascript">
-
-      //User Agent Sniffing for Font Rendering on Windows. 
-      var usAg = navigator.userAgent;
-      if(usAg.indexOf("NT 6.1") != -1) {
-          $('body').css({'fontWeight':"300"});
-          $('#footer ul').css({'fontFamily':'Georgia', 'fontSize':'12px', 'lineHeight':'1.7em'});
-          console.log('Windows!');
-      }
-
 	    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 	    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 	    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
