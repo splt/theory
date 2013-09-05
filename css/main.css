@@ -587,7 +587,20 @@ textarea {
 
         #bread_crumbs ul#slider_nav{margin-top: -1px;}
 
-    #product_result
+    #product_results{}
+        .product_result{}
+        .product_image{position: relative; width: 100%; height: 100%;}
+        .quicklook{
+            font-family: 'Genath-Regular', "Times New Roman", Georgia, serif; 
+            color: #000;
+            font-size: 14px;
+            text-align: center;
+            line-height: 60px;
+            text-transform: uppercase;
+            position: absolute; left: 53px; top: 183px;
+            display: none;
+            width: 128px; height: 60px; 
+            background: transparent url('../img/quicklook2.png') no-repeat;}
 
     #product_details{}
         

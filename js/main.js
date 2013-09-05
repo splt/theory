@@ -92,4 +92,15 @@ $(function() {
             $(this).css("padding-bottom", "0");
           }
         );
+
+        // Quicklook Link
+
+        $(".product_image").hover(
+          function(){
+            $(this).children('.quicklook').fadeIn();
+          },
+          function(){
+            $(this).children('.quicklook').fadeOut();
+          }
+        );
 });
