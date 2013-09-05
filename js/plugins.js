@@ -138,3 +138,21 @@ var BrowserDetect = {
 
 };
 BrowserDetect.init();
+
+
+
+      //User Agent Sniffing for Font Rendering on Windows. 
+      var usAg = navigator.userAgent;
+      if(BrowserDetect.OS == 'Windows') {
+          $('body').css({'fontWeight':"300"}); //Slightly lighter. 
+          $('#footer ul').css({
+            'fontFamily':'Times New Roman, Times, serif', 
+            'fontSize':'14px', 
+            'lineHeight':'1.7em'
+          });
+          console.log('browser:', BrowserDetect.browser, BrowserDetect.version, BrowserDetect.OS);
+          var fontcss = document.createElement('link');
+          fontcss.setAttribute('type', 'text/css');
+          fontcss.setAttribute('href', 'css/ff.css');
+          document.body.getElementsByTagName('head')[0].appendChild(fontcss);
+      }

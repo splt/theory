@@ -1,24 +1,5 @@
 $(function() {
 
-
-      //User Agent Sniffing for Font Rendering on Windows. 
-      var usAg = navigator.userAgent;
-      if(usAg.indexOf("NT 6.1") != -1) {
-          $('body').css({'fontWeight':"300"}); //Slightly lighter. 
-          $('#footer ul').css({
-            'fontFamily':'Times New Roman, Times, serif', 
-            'fontSize':'14px', 
-            'lineHeight':'1.7em'
-          });
-          console.log('Windows!');
-          var fontcss = document.createElement('link');
-          fontcss.setAttribute('type', 'text/css');
-          fontcss.setAttribute('href', 'css/ff.css');
-          document.body.getElementByTagName('head')[0].appendChild(fontcss);
-      }
-
-
-
         // JQuery Cycle init for Homepage and to Generate Button Elements. 
         if($('#slider')){
           var pagerFactory = function(idx, slide) {return '<li><a href="#">&nbsp;</a></li>';};
