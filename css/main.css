@@ -120,9 +120,16 @@ textarea {
 .beta img{}
 
 .grid_8 .beta img{margin: 0px 163px;}
+.grid_8.beta img{margin:0px 3px;}
 .grid_5 .beta img{margin: 0px 5px;}
 
-.grid_6.beta img{margin: 0px 3px;}
+#product_results .grid_5 img{margin: 0px 5px 0px 5px;}
+
+.grid_6.alpha img{margin-right: 6px;}
+.grid_6.beta img{margin: 0px 4px 0px 2px;}
+.grid_6.gamma img{margin: 0px 2px 0px 4px;}
+.grid_6.omega img{margin-left: 6px;}
+
 
 .omega img{float: right;}
 
@@ -356,6 +363,7 @@ textarea {
         font-weight: normal;
     }
 
+    .wrapper{position: relative;}
 
 /********* HEADER STYLES *********/
 
@@ -548,6 +556,7 @@ textarea {
 
     /* Shared Column Styles for Nav and Footer */
 
+    .drop_down_filter h3,
     #product_filters h3,
     .nav_col h5,
     .footer_col h5{
@@ -568,7 +577,6 @@ textarea {
         text-transform: none;
         font-size: 14px;
         line-height: 1.5em;
-        margin-top: -5px;
         text-align: left;
     }
 
@@ -589,7 +597,7 @@ textarea {
         #bread_crumbs ul#slider_nav{margin-top: -1px;}
 
     #product_results{}
-        .product_result{}
+        .product_result{margin-top: 30px;}
         .product_image{position: relative; width: 100%; height: 100%;}
         .quicklook{
             font-family: 'Genath-Regular', "Times New Roman", Georgia, serif; 
@@ -597,10 +605,13 @@ textarea {
             text-align: center;
             line-height: 60px;
             text-transform: uppercase;
-            position: absolute; left: 53px; top: 183px;
+            position: absolute; 
             display: none;
             width: 128px; height: 60px; 
             background: transparent url('../img/quicklook2.png') no-repeat;}
+
+        .grid_6 .quicklook{left: 53px; top: 183px;}
+        .grid_8 .quicklook{left: 93px; top: 255px;}
 
     #product_details{}
         
@@ -627,13 +638,16 @@ textarea {
                     position: relative;
                     top:-2px;}
 
-            .swatches{}
+            ul.swatches{margin-top: 5px;}
                 .swatches ul{font-family: 'Genath-Regular', "Times New Roman", Georgia,  serif;}
                     .swatches li{
+                        font-family: 'Genath-Regular', "Times New Roman", Georgia, serif; 
                         padding: 3px;
                         margin-right: 5px;
+                        margin-bottom: 5px;
                         display: inline;
                         float: left;}
+
                     .swatches li.selected{border: 1px solid #000; padding: 2px;}
                     .swatches li a{
                         cursor: pointer;
@@ -645,6 +659,7 @@ textarea {
                         line-height: 24px;
                         float: left;
                         font-size: 14px;}
+                        .swatches.long li a{width:34px;}
                         .swatches li a:hover{border: 1px solid #666;}
 
                         .swatches li a img{width: 24px; height: 24px;}
@@ -679,8 +694,8 @@ textarea {
                 text-transform: uppercase;
             }
 
-            .product_detail .ui-accordion .ui-accordion-header .ui-icon{right: 0.5em;}
-            .product_detail h3{margin: 0px; position: relative; top:-3px; cursor: pointer;}
+            .ui-accordion .ui-accordion-header .ui-icon{right: 0.5em;}
+            h3{margin: 0px; position: relative; top:-3px; cursor: pointer;}
             .product_detail .content p{
                     font-size: 14px; 
                     margin-top: 5px;
@@ -697,6 +712,63 @@ textarea {
         #product_filters{width: 177px;}
             #product_filters hr{width: 177px;}
 
+        #page_title{line-height: 30px;}
+        #page_title h1{
+            position: relative;
+            top: -10px;
+            text-align: center; 
+            text-transform: uppercase;
+            font-family: 'Genath-Light', "Times New Roman", Georgia, serif; 
+            font-size: 32px;
+            font-weight: 300;
+            margin: 0px;}
+
+        #drop_down_filters{position: absolute; z-index: 50; top:52px;}
+            .drop_down_filter{float: left; background: #FFF;
+                border-bottom: 1px solid #000; padding: 10px 10px 5px 12px;
+                width: 188px; margin-right: 10px;}
+
+            .drop_down_filter.active{
+                padding: 10px 10px 10px 12px;
+                -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                -o-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+            }
+
+            .drop_down_filter div{display: none;}
+            .drop_down_filter.active div{display: block;}
+
+            .drop_down_filter h3{}
+            .drop_down_filter p{margin: 5px 0px 5px 0px; font-style: oblique;}
+            .drop_down_filter .swatches img{margin-top: -2px;}
+
+            .drop_down_filter.ui-accordion .ui-accordion-header .ui-icon{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -2px;
+            }
+
+
+
+
+
+/********* MODAL STYLES *********/
+
+    #shader{position: absolute; display: none;
+        width: 100%; height: 100%; 
+        left:0; top:0;
+        background: rgba(255,255,255,0.5); 
+        z-index: 999;}
+    #modal{position: absolute; left: 0px; top: 0px; z-index: 1000; display: none;
+        padding: 10px; background: #FFF;
+        -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+        -o-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+        box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+        width: 960px !important; height: 660px;}
+
 /********* RELATED ITEMS STYLES *********/
 
             #related_items,
@@ -704,7 +776,7 @@ textarea {
                 text-align: center; 
                 font-family: 'Genath-Regular', "Times New Roman", Georgia, serif;
                 margin-top: 10px;
-                margin-bottom: 50px;
+                margin-bottom: 10px;
             }
             h5{
                 font-family: 'Genath-Regular', "Times New Roman", Georgia, serif;
@@ -786,8 +858,7 @@ textarea {
             padding: 5px 1px 4px 1px;}
         .input_append input{
             font-family: 'Genath-Regular', "Times New Roman", Georgia, serif;
-            font-size: 11px; padding-top: 3px; padding-bottom: 0px;
-            font-size: 11px; padding-top: 3px; padding-bottom: 0px;
+            font-size: 11px; padding-top: 5px; padding-bottom: 0px;
             float: left; width: 134px; margin-left: 4px;}
         .input_append .btn{ 
             font-family: 'Theinhardt-Medium', "Helvetica", Arial, sans-serif;
@@ -879,13 +950,13 @@ ul{list-style:none}
 
 /* jCarousel */
 
-#main #slider_container {
+#main #primary_cycle #slider_container {
     position: relative;
     height: 500px;
     width: 960px;
 }
     
-#main .slider_images {  
+#main #primary_cycle .slider_images {  
     height:  500px;  
     width:   960px;
     position: absolute;
@@ -895,8 +966,57 @@ ul{list-style:none}
     overflow: hidden;
 } 
 
-.product_list #bread_crumbs{padding-top:5px;}
+#main #editorial_slider #slider_container {
+    position: relative;
+    height: 640px;
+    width: 960px;
+}
+    
+#main #editorial_slider .slider_images {  
+    height:  640px;  
+    width:   960px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    overflow: hidden;
+} 
+
+#editorial #bread_crumbs,
+.product_detail #bread_crumbs{padding-top:5px;}
+
 hr.close{padding-top: 0px; margin-top: 5px;}
+
+/* Editorial Section */
+
+#editorial_slider{}
+#editorial_copy{text-align: center;}
+    #editorial_copy .ui-accordion-content{margin-bottom: 10px;}
+    #editorial_copy h3{            
+        line-height: 30px;
+        top:-2px;
+        font-family: 'Genath-Light', "Times New Roman", Georgia,  serif;
+        font-weight: normal;
+        font-style: oblique; font-size: 28px;}
+/*
+        #editorial_copy h3 .read_more{font-style: oblique; display: inline;}
+        #editorial_copy h3.ui-state-active .read_more{display: none;}*/
+
+#editorial_copy.ui-accordion .ui-accordion-header .ui-icon{
+    right: 0px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+}
+
+    #editorial_copy h3 span{text-transform: uppercase; font-style: normal;}
+    #editorial_copy p{
+        font-family: 'Genath-Regular', "Times New Roman", Georgia, serif; 
+        font-size: 14px;
+        width: 570px; 
+        margin: 1em auto;}
+        #editorial_copy p.intro{margin-top: 10px;}
 
 /* FireFox Specific */
 @-moz-document url-prefix() {
@@ -928,5 +1048,7 @@ hr.close{padding-top: 0px; margin-top: 5px;}
     }
     .dropdown .nav_col ul strong a{font-family: "Times New Roman", Times, Georgia, serif; font-weight: bold;}
     .dropdown{border-left: 1px solid #CCC; border-right: 1px solid #CCC; border-bottom: 1px solid #CCC;}
+
+    #drop_down_filters{top:53px;}
 
 }

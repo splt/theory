@@ -16,6 +16,7 @@
 .nav_col ul,
 .footer_col ul,
 .input-append input,
+.quicklook,
 #copyright{font-family:  "Times New Roman", Times, serif; font-size: 0.95em; letter-spacing: 0.025em;}
 
 .dropdown {width: 898px;}
@@ -33,3 +34,5 @@ hr{width: 100%;}
 
 .dropdown .nav_col ul strong a{font-family: "Times New Roman", Times, serif; font-weight: bold;}
 .dropdown{border-left: 1px solid #CCC; border-right: 1px solid #CCC; border-bottom: 1px solid #CCC;}
+
+#drop_down_filters{top:54px;}
