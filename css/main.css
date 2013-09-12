@@ -590,11 +590,13 @@ textarea {
 
 /********* PRODUCT STYLES *********/
 
-    #bread_crumbs{}
+    #bread_crumbs{padding-top:5px;}
         #bread_crumbs ul{font-family: 'Genath-Regular', "Times New Roman", Georgia, serif; font-size: 12px;}
             #bread_crumbs ul li{display: inline;}
 
         #bread_crumbs ul#slider_nav{margin-top: -1px;}
+
+        .product_list #bread_crumbs{padding-top:0px;}
 
     #product_results{}
         .product_result{margin-top: 30px;}
@@ -617,7 +619,7 @@ textarea {
         
         #product_details hr{border-bottom: 1px solid #b3b3b3; margin: 4px 0px 9px 0px;}
 
-        .product_detail{}
+        .product_detail{overflow: hidden;}
 
         .product_detail h1{
             font-family: 'Genath-Light', "Times New Roman", Georgia,  serif;
@@ -723,7 +725,10 @@ textarea {
             font-weight: 300;
             margin: 0px;}
 
-        #drop_down_filters{position: absolute; z-index: 50; top:52px;}
+        #ecomm {position: relative;}
+            #ecomm #drop_down_filters{top:-10px;}
+
+        #drop_down_filters{position: absolute; z-index: 50; top:57px;}
             .drop_down_filter{float: left; background: #FFF;
                 border-bottom: 1px solid #000; padding: 10px 10px 5px 12px;
                 width: 188px; margin-right: 10px;}
@@ -768,6 +773,8 @@ textarea {
         -o-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
         box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
         width: 960px !important; height: 660px;}
+
+        #modal_close{ width: 20px; height: 20px; background: #000; right: 0px; top:0px; position: absolute;}
 
 /********* RELATED ITEMS STYLES *********/
 
@@ -982,9 +989,6 @@ ul{list-style:none}
     overflow: hidden;
 } 
 
-#editorial #bread_crumbs,
-.product_detail #bread_crumbs{padding-top:5px;}
-
 hr.close{padding-top: 0px; margin-top: 5px;}
 
 /* Editorial Section */
@@ -1000,7 +1004,8 @@ hr.close{padding-top: 0px; margin-top: 5px;}
         font-style: oblique; font-size: 28px;}
 /*
         #editorial_copy h3 .read_more{font-style: oblique; display: inline;}
-        #editorial_copy h3.ui-state-active .read_more{display: none;}*/
+        #editorial_copy h3.ui-state-active .read_more{display: none;}
+*/
 
 #editorial_copy.ui-accordion .ui-accordion-header .ui-icon{
     right: 0px;
@@ -1049,6 +1054,6 @@ hr.close{padding-top: 0px; margin-top: 5px;}
     .dropdown .nav_col ul strong a{font-family: "Times New Roman", Times, Georgia, serif; font-weight: bold;}
     .dropdown{border-left: 1px solid #CCC; border-right: 1px solid #CCC; border-bottom: 1px solid #CCC;}
 
-    #drop_down_filters{top:53px;}
+    #drop_down_filters{top:58px;}
 
 }

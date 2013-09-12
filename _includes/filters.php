@@ -4,7 +4,7 @@
           <h3>Shop By Size (<span class="value">1</span>)</h3>
           <div>
             <p><span class="value">1</span> Selected / <a class="clear_all">Clear All</a></p>
-            <ul class="swatches">
+            <ul class="swatches long">
                 <li><a data-swatch="00" title="00">00</a></li>
                 <li><a data-swatch="0" title="0">0</a></li>
                 <li><a data-swatch="2" title="2">2</a></li>

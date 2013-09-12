@@ -45,7 +45,7 @@
   	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
 
-
+<div class="wrapper container_24">
     <!-- 
 
     Start of Header:  Top row consists of 24 rows of 12-12. Logo spans 24 rows and is centered.

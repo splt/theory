@@ -12,27 +12,17 @@
 
     <!-- 
 
-    Start of Primary Cycle Elements: 24 rows of 24:
+    Start of Editorial Cycle Elements: 24 rows of 24:
     This uses jQuery.cycle Plugin with dependencies of jQuery 1.3.2
 
     -->
 
       <div id='editorial_slider'>
           <div class="grid_24">
-          <div id="slider_container" class="carousel slide">
-
-              <a class="carousel_control left" href="#" id="prev"><img src="img/arrow-left.png"></a>
-              <a class="carousel_control right" href="#" id="next"><img src="img/arrow-right.png"></a>
-
-              <div class="slider_images carousel_inner" id="slider">
-                    <img width="960" height="640" src="http://placehold.it/960x640" alt="" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7; opacity: 0; width: 960px; height: 640px;">
-                    <img width="960" height="640" src="http://placehold.it/960x640/444/FFF" alt="" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7; opacity: 0; width: 960px; height: 640px;">
-                    <img width="960" height="640" src="http://placehold.it/960x640" alt="" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7; opacity: 0; width: 960px; height: 640px;">
-                    <img width="960" height="640" src="http://placehold.it/960x640/444/FFF" alt="" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7; opacity: 0; width: 960px; height: 640px;">
-                    <img width="960" height="640" src="http://placehold.it/960x640" alt="" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7; opacity: 0; width: 960px; height: 640px;">
-                    <img width="960" height="640" src="http://placehold.it/960x640/444/FFF" alt="" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7; opacity: 0; width: 960px; height: 640px;">
-              </div> <!--/#slider -->
-          </div><!--/#slider_container-->
+<?php 
+$height = 640;
+include('_includes/slider.php'); 
+?>
         </div><!-- end .grid_24 -->
     </div><!--/#editorial_cycle-->
 
@@ -77,55 +67,7 @@ orci id eleifend tincidunt odio eu felis.</p>
     <div class="clear">&nbsp;</div>     
     <hr class="close"/>
 
-    <!-- 
-
-      Start of Related Item Elements: 24 rows of 24 for title, then content consisting of 2+5-5-5-5+2
-      Alpha and Omega defined as first and last. Beta elements in between 
-
-    -->
-
-    <div id="related_items">
-        <div class="grid_24">
-          <h5>Related Items</h5>
-        </div><!-- end .grid_24 -->
-        <div class="grid_5 prefix_2">
-            <img src="http://placehold.it/190x346"/>
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div> <!-- end .grid_5 -->
-        <div class="grid_5">
-            <img src="http://placehold.it/190x346"/>
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div> <!-- end .grid_5 -->
-        <div class="grid_5">
-            <img src="http://placehold.it/190x346"/>
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div> <!-- end .grid_5 -->
-        <div class="grid_5 suffix_2">
-            <img src="http://placehold.it/190x346"/>
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div> <!-- end .grid_5 -->
-        <div class="clear">&nbsp;</div>
-    </div> <!--! end of #related_items -->
+<?php include('_includes/related_items.php'); ?>
 
     <div class="clear">&nbsp;</div>
 

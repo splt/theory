@@ -111,7 +111,7 @@
     Start of Copyright: 24 rows of 15-9
 
   -->
-
+<div id="shader"></div>
 <div id="modal" class="container container_24">
     <div id="product_details">
         <div class="grid_15 alpha">
@@ -165,7 +165,7 @@
                 <p id="size-selection" class="value">S</p>
             </div><!--/.selection-->
 
-            <div class="swatches grid_7">
+            <div class="swatches long grid_7">
                 <ul>
                     <li><a data-swatch="P" title="Petite">P</a></li>
                     <li class="selected"><a data-swatch="S" title="Small">S</a></li>
@@ -188,7 +188,7 @@
           <div class="clear">&nbsp;</div>
           <hr/>
 
-          <div id="pd" class="product_detail accordion">
+          <div id="mpd" class="product_detail accordion">
             <h3><label class="header">Description</label></h3>
             <div class="content"><p>With a front ruffle overlay, the Charelle is an elegant top 
 ideal for day or night attire. Made in our silk georgette fabric.</p>
@@ -225,18 +225,23 @@ ideal for day or night attire. Made in our silk georgette fabric.</p>
 
         </div><!-- end .grid_9 -->
     </div> <!--! end of #product_details -->
+    <div id="modal_close"></div>
 </div><!-- end of #modal -->
 
 
-    <!--- Javascript loading at end of document for faster rendering -->
-<!--
-    <script src="http://demandware.edgesuite.net/aado_prd/on/demandware.static/Sites-theory_US-Site/-/default/v1377245627114/lib/jquery/js/jquery/jquery-1.3.2.min.fixed.js" type="text/javascript"></script>
-    <script src="http://demandware.edgesuite.net/aado_prd/on/demandware.static/Sites-theory_US-Site/Sites-theory_US-Library/default/v1377245627114/lib/cycle/cycle.js" type="text/javascript"></script>
--->
 
+</div><!--/#wrapper-->
+
+    <!--- Javascript loading at end of document for faster rendering -->
+
+  <!--
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.3.2.min.fixed.js"><\/script>')</script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
+
     <!--<script src="js/vendor/jquery-ui-1.7.custom.min.js"></script>-->
 
     <script src="js/vendor/cycle.js"></script>
