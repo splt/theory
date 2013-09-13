@@ -129,7 +129,8 @@ textarea {
 .grid_6.beta img{margin: 0px 4px 0px 2px;}
 .grid_6.gamma img{margin: 0px 2px 0px 4px;}
 .grid_6.omega img{margin-left: 6px;}
-
+    .grid_6.nav_col.omega{margin-left:0px;}
+.related_desc img{margin: 0;}
 
 .omega img{float: right;}
 
@@ -549,7 +550,7 @@ textarea {
 
     #main_nav .nav_col img{float: left; padding-right: 20px;}
     #main_nav .nav_col:first-child{padding-left: 0px;}
-    #main_nav .nav_col.grid_5{border-right: none;}
+    #main_nav .nav_col.omega{border-right: none;}
 
     #main_nav .nav_col h5{margin-top: 0px;}
 
@@ -619,7 +620,7 @@ textarea {
         
         #product_details hr{border-bottom: 1px solid #b3b3b3; margin: 4px 0px 9px 0px;}
 
-        .product_detail{overflow: hidden;}
+        .product_detail{/*overflow: hidden;*/}
 
         .product_detail h1{
             font-family: 'Genath-Light', "Times New Roman", Georgia,  serif;
