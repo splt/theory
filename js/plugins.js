@@ -140,7 +140,7 @@ var BrowserDetect = {
 BrowserDetect.init();
 
 //User Agent Sniffing for Font Rendering on Windows. 
-if(BrowserDetect.OS == 'Windows') {
+if(BrowserDetect.OS == 'Windows' && false) {
   console.log('browser:', BrowserDetect.browser, BrowserDetect.version, BrowserDetect.OS);
   var fontcss = document.createElement('link');
   fontcss.setAttribute('rel', 'stylesheet');

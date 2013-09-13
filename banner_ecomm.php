@@ -119,84 +119,32 @@
         <div class="clear">&nbsp;</div><!--/ clear every %3 -->
 
         <div class="product_result grid_8 alpha">
-            <div class="product_image">
-              <img src="http://placehold.it/314x570"/>
-              <a class="quicklook">QuickLook</a>
-            </div><!--/.product_image-->
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div><!-- end .grid_6 -->
+          <?php 
+            $image_width = 314;
+            include('_includes/product_list.php') ?>
+        </div><!-- end .grid_8 -->
 
         <div class="product_result grid_8 beta">
-            <div class="product_image">
-              <img src="http://placehold.it/314x570"/>
-              <a class="quicklook">QuickLook</a>
-            </div><!--/.product_image-->
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div><!-- end .grid_6 -->
+            <?php include('_includes/product_list.php') ?>
+        </div><!-- end .grid_8 -->
 
         <div class="product_result grid_8 omega">
-            <div class="product_image">
-              <img src="http://placehold.it/314x570"/>
-              <a class="quicklook">QuickLook</a>
-            </div><!--/.product_image-->
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div><!-- end .grid_6 -->
+            <?php include('_includes/product_list.php') ?>
+        </div><!-- end .grid_8 -->
 
         <div class="clear">&nbsp;</div><!--/ clear every %3 -->
 
         <div class="product_result grid_8 alpha">
-            <div class="product_image">
-              <img src="http://placehold.it/314x570"/>
-              <a class="quicklook">QuickLook</a>
-            </div><!--/.product_image-->
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div><!-- end .grid_6 -->
+            <?php include('_includes/product_list.php') ?>
+        </div><!-- end .grid_8 -->
 
         <div class="product_result grid_8 beta">
-            <div class="product_image">
-              <img src="http://placehold.it/314x570"/>
-              <a class="quicklook">QuickLook</a>
-            </div><!--/.product_image-->
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div><!-- end .grid_6 -->
+            <?php include('_includes/product_list.php') ?>
+        </div><!-- end .grid_8 -->
 
         <div class="product_result grid_8 omega">
-            <div class="product_image">
-              <img src="http://placehold.it/314x570"/>
-              <a class="quicklook">QuickLook</a>
-            </div><!--/.product_image-->
-            <div class="clear">&nbsp;</div>
-            <div class="related_desc">
-              <h6 class="product_line">Theory Classics</h6>
-              <p class="product_name"><i>Danvey</i> Coat in brookline wool blend</p>
-              <p class="product_price">$195</p>
-            </div><!--end .related_desc -->
-        </div><!-- end .grid_6 -->
+            <?php include('_includes/product_list.php') ?>
+        </div><!-- end .grid_8 -->
 
         <div class="clear">&nbsp;</div><!--/ clear every %3 -->
 

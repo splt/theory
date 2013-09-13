@@ -10,7 +10,7 @@
       <div class="container container_24">
         <div class="content">
 
-      <div id='bread_crumbs'>
+      <div id="bread_crumbs" class="close">
 
       <div class="grid_12">
           <ul>

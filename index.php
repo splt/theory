@@ -32,6 +32,7 @@
         'Filter - 3' => 'filter-3.php', 
         'Editorial' => 'editorial.php',
         'EComm Banner' => 'banner_ecomm.php',
+        'Email Template' => 'email-1.html',
     );
 
     $files = array(
@@ -42,7 +43,7 @@
         'filter-3.php', 
         'editorial.php',
         'banner_ecomm.php',
-        
+        'email-1.html',
     );
     $pages = array(
         'Homepage', 
@@ -52,6 +53,7 @@
         'Filter - 3', 
         'Editorial',
         'EComm Banner',
+        'Email Template',
     );
 
     // echo('<pre>');
