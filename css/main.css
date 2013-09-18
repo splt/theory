@@ -590,7 +590,8 @@ textarea {
     }
 
     .nav_col li a:hover,
-    .footer_col li a:hover{color: #000; opacity: 0.5; 
+    .footer_col li a:hover{
+        color: #000; opacity: 0.5; 
         -webkit-transition-duration: 400ms;
         -moz-transition-duration: 400ms;
         -o-transition-duration: 400ms;
@@ -1122,3 +1123,38 @@ hr.close{padding-top: 0px; margin-top: 5px;}
 /** 9-18 **/
 .ui-dialog{background: #FFF;}
 #newbanner{margin-left: 15px;}
+
+.minicartclose{text-align: right; 
+    text-transform: uppercase; 
+    font-family: "Times New Roman", Times, Georgia, serif; 
+    font-weight: bold; 
+    font-size:11px;}
+
+.attributes .attribute{float: left; width: 100%; border-top:1px solid #CCC; padding:5px 0px;}
+    .attributes .attribute .label{float: left; width: 50px; font-weight: bold;}
+    .attributes .attribute .value{float: left; width: 120px;}
+
+.summaryproduct .image{float: left; margin: 0px 10px 10px 0px;}
+.summaryproduct .name{font-size: 1.2em;}
+    
+    .ordertotalstable{width: 170px;}
+    .ordertotalstable tr{border-bottom: 1px solid #CCC;}
+    .ordertotalstable td {text-align: right;}
+    .ordertotalstable td .label{font-weight: bold;}
+
+    .checkoutminicart{border-bottom: 1px solid #CCC;}
+
+    .minicartbuttoncontainer div{
+            /*font-family: 'Genath-Regular', "Times New Roman", Georgia,  serif;*/
+            font-family: "Times New Roman", Times,  serif;
+            margin-top: 10px;
+            padding: 8px 0px;
+            width: 100%;
+            text-align: center;
+        }
+
+    .viewcart-button{font-style: oblique;
+                    border: 1px solid #000; background: #FFF;}
+    .checkout-button{border: none;
+                    background: #000; color: #FFF; text-transform: uppercase;}
+                    .checkout-button a{color: #FFF;}

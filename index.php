@@ -13,13 +13,13 @@
             <hr/>
 
 <style>
-    table{width: 500px; margin: 20px auto;}
+    table#context{width: 500px; margin: 20px auto;}
     th{background: #DDD;}
     th, td{padding: 5px; text-align: center;}
     tr.even{background: #EEE;}
 </style>
  
-<table>
+<table id="context">
 
     <tr><th>#</th><th>Page</th></tr>
     <?php
