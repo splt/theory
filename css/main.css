@@ -2,7 +2,7 @@
 main.css - Justin Michaliga / jmichaliga.com
 Theory.com : By Legs
 August 23rd, 2013
-dev.v0.1
+dev.v0.2
 
 Table of Contents:
     
@@ -629,9 +629,7 @@ textarea {
         .grid_8 .quicklook{left: 93px; top: 255px;}
 
     #product_details{}
-        
         #product_details hr{border-bottom: 1px solid #b3b3b3; margin: 4px 0px 9px 0px;}
-
         .product_detail{/*overflow: hidden;*/}
 
         .product_detail h1{
@@ -774,10 +772,6 @@ textarea {
                 height: 20px;
                 top: -2px;
             }
-
-
-
-
 
 /********* MODAL STYLES *********/
 
@@ -1079,3 +1073,52 @@ hr.close{padding-top: 0px; margin-top: 5px;}
     #drop_down_filters{top:58px;}
 
 }
+
+/************* Product Listing  **********************/
+
+.container_24 .grid_12.text-right > div {
+    display: inline-block;
+    }
+       
+.addtocart, .addtowishlist, .product.producttile  {
+    display: inline-block;
+    width: 150px;
+}
+
+#s7container #s7imageviewer {
+    height: 615px !important;
+    width: 547px !important;
+}
+
+.s7container{top:-791px !important; left:351px !important; width:539px !important; height:603px !important; overflow:visible}
+.s7flyoutzoomview{border:none; width:539px ; height:603px; left: auto; margin-left: 85px; top:10px !important; background-color:rgba(200,200,200,0.5)}
+.s7flyoutzoomview .s7highlight{opacity:.25; background-color:#000}
+.s7flyoutzoomview .s7flyoutzoom{left:433px !important; top:0px !important; width:340px; height:400px; z-index:100}
+.s7swatches{position:absolute; top:-2px; width:120px; height:683px; background:none; z-index: 100;}
+.s7swatches .s7thumb{width:64px; height:116px; z-index: 100;}
+
+.productdetail {
+    height: 657px;
+}
+
+.product_detail .content .longDescription li{
+    list-style-image:url("../images/nav_line.gif");
+    list-style-position: inside;
+}
+
+.longDescriptionDiv .attribute{
+    display: inline;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 200px;   
+}
+
+.product_detail .content .productid{
+    margin:0px
+}
+.productinfo .exclusive{ margin-top: 5px;}
+
+/** 9-18 **/
+.ui-dialog{background: #FFF;}
+#newbanner{margin-left: 15px;}
