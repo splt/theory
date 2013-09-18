@@ -1142,7 +1142,7 @@ hr.close{padding-top: 0px; margin-top: 5px;}
     .ordertotalstable td {text-align: right;}
     .ordertotalstable td .label{font-weight: bold;}
 
-    .checkoutminicart{border-bottom: 1px solid #CCC;}
+    .checkoutminicart{border-bottom: 3px solid #000;}
 
     .minicartbuttoncontainer div{
             /*font-family: 'Genath-Regular', "Times New Roman", Georgia,  serif;*/
